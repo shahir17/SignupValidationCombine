@@ -13,6 +13,8 @@
 		D1CCC5CE2695F29D006C1EFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CCC5CD2695F29D006C1EFE /* Preview Assets.xcassets */; };
 		D1CCC5D92695F29D006C1EFE /* SignUpValidationCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCC5D82695F29D006C1EFE /* SignUpValidationCombineTests.swift */; };
 		D1CCC5E42695F29D006C1EFE /* SignUpValidationCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCC5E32695F29D006C1EFE /* SignUpValidationCombineUITests.swift */; };
+		D1CCC5F42695F482006C1EFE /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCC5F32695F482006C1EFE /* FormViewModel.swift */; };
+		D1CCC5F72695F7C6006C1EFE /* PasswordStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCC5F62695F7C6006C1EFE /* PasswordStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		D1CCC5DF2695F29D006C1EFE /* SignUpValidationCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignUpValidationCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CCC5E32695F29D006C1EFE /* SignUpValidationCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpValidationCombineUITests.swift; sourceTree = "<group>"; };
 		D1CCC5E52695F29D006C1EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CCC5F32695F482006C1EFE /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		D1CCC5F62695F7C6006C1EFE /* PasswordStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,9 @@
 		D1CCC5C52695F29A006C1EFE /* SignUpValidationCombine */ = {
 			isa = PBXGroup;
 			children = (
+				D1CCC5F52695F7BB006C1EFE /* Model */,
+				D1CCC5F22695F45C006C1EFE /* ViewModel */,
+				D1CCC5F12695F457006C1EFE /* Views */,
 				D1CCC5C62695F29A006C1EFE /* SignUpValidationCombineApp.swift */,
 				D1CCC5C82695F29A006C1EFE /* ContentView.swift */,
 				D1CCC5CA2695F29D006C1EFE /* Assets.xcassets */,
@@ -128,6 +135,29 @@
 				D1CCC5E52695F29D006C1EFE /* Info.plist */,
 			);
 			path = SignUpValidationCombineUITests;
+			sourceTree = "<group>";
+		};
+		D1CCC5F12695F457006C1EFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1CCC5F22695F45C006C1EFE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1CCC5F32695F482006C1EFE /* FormViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D1CCC5F52695F7BB006C1EFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1CCC5F62695F7C6006C1EFE /* PasswordStatus.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1CCC5F42695F482006C1EFE /* FormViewModel.swift in Sources */,
 				D1CCC5C92695F29A006C1EFE /* ContentView.swift in Sources */,
+				D1CCC5F72695F7C6006C1EFE /* PasswordStatus.swift in Sources */,
 				D1CCC5C72695F29A006C1EFE /* SignUpValidationCombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

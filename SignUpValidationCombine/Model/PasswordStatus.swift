@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+
+enum PasswordStatus {
+    case empty
+    case notStrongEnough
+    case repeatedPasswordIsWrong
+    case valid
+}
