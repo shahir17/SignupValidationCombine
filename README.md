@@ -1,14 +1,8 @@
 # SignupValidationCombine
 SwiftUI and Combine sign up view with Username and Password Validation 
 
-![Screenshot](IMG_3052.PNG)
+
+<img src="IMG_3052.PNG" width="100" height="100">
 
 
-![Screenshot](IMG_3054.PNG)
-
-
-![Screenshot](IMG_3055.PNG)
-
-
-![Screenshot](IMG_3056.PNG)
 
